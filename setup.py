@@ -79,7 +79,6 @@ install_requires = [
     "toolz>=0.9.0,<1.0.0;implementation_name=='pypy'",
     "cytoolz>=0.9.0,<1.0.0;implementation_name=='cpython'",
 
-    "git+git://github.com/TelePay-cash/eth_account.git",
     "eth-hash[pycryptodome]>=0.2.0,<1.0.0",
 
     "trx-utils",
@@ -89,7 +88,6 @@ install_requires = [
     "requests>=2.16.0,<3.0.0",
     "base58",
     "ecdsa",
-    'git+git://github.com/TelePay-cash/attrdict.git',
 ]
 
 this_dir = os.path.dirname(__file__)
