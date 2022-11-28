@@ -80,7 +80,7 @@ install_requires = [
     "cytoolz>=0.9.0,<1.0.0;implementation_name=='cpython'",
 
     "eth-abi>=2.0.0b6,<3.0.0",
-    "eth_account @ git+ssh://github.com/TelePay-cash/eth_account.git",
+    "eth_account @ git+ssh://git@github.com/TelePay-cash/eth_account.git",
     "eth-utils>=1.3.0,<2.0.0",
     "eth-hash[pycryptodome]>=0.2.0,<1.0.0",
 
@@ -91,7 +91,7 @@ install_requires = [
     "requests>=2.16.0,<3.0.0",
     "base58",
     "ecdsa",
-    "attrdict @ git+ssh://github.com/TelePay-cash/attrdict.git",
+    "attrdict @ git+ssh://git@github.com/TelePay-cash/attrdict.git",
 ]
 
 
