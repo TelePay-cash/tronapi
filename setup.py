@@ -91,7 +91,7 @@ install_requires = [
     "requests>=2.16.0,<3.0.0",
     "base58",
     "ecdsa",
-    'git+ssh://github.com/TelePay-cash/attrdict.git',
+    "git+ssh://github.com/TelePay-cash/attrdict.git",
 ]
 
 this_dir = os.path.dirname(__file__)
