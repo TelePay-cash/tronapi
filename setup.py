@@ -8,7 +8,9 @@
 """
     setup
     =====
+
     Tron: A Python API for interacting with Tron (TRX)
+
     :copyright: © 2018 by the iEXBase.
     :license: MIT License
 """
@@ -22,7 +24,7 @@ from setuptools import (
 
 py_version = platform.python_version()
 
-PACKAGE_VERSION = '3.1.5'
+PACKAGE_VERSION = '3.1.6'
 
 EXTRAS_REQUIRE = {
     'tester': [
